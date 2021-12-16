@@ -15850,46 +15850,44 @@ tongan_ideas = { #Credit to James Beaumont
 	}
 }
 
-samoan_ideas = { #Credit to James Beaumont
+noguttvu_ideas = { #Noguttvu Ideas
 	start = {
-		advisor_pool = 1
-		same_culture_advisor_cost = -0.25
+		may_establish_frontier = yes
+		naval_forcelimit_modifier = 0.5
 	}
 
 	bonus = {
-		idea_cost = -0.1
+		build_time = -0.20
 	}
 	
 	trigger = {
-		tag = SAM
+		tag = B45
 	}
 	free = yes		#will be added at load.
 	
-	samoa_musical = {
-		global_unrest = -2
+	bastion_of_kings = {
+		legitimacy = 1
 	}
-	samoa_faa = {
-		governing_capacity_modifier = 0.1
-		naval_forcelimit_modifier = 0.1
+	noguttvu_buerocracy = {
+		governing_capacity_modifier = 0.2
+		core_creation = -0.25
 	}
-	samoa_mauluulu = {
-		female_advisor_chance = 0.5
-		may_recruit_female_generals = yes
+	dwarven_exploration_spirit = {
+		may_explore = yes
+	}
+	mining_infrastructure = {
 		production_efficiency = 0.1
 	}
-	samoa_foreign = {
-		tolerance_heathen = 2
-		global_institution_spread = 0.1
+	high_taxes = {
+		global_tax_modifier = 0.40
+		stability_cost_modifier = 0.2
 	}
-	samoa_tatau = {
-		legitimacy = 1
-		prestige = 1
-	}
-	samoa_faavae = {
+	defender_of_tunnu = {
 		religious_unity = 0.25
+		land_morale = 0.10
 	}
-	samoa_trade = {
-		may_explore = yes
-		global_ship_trade_power = 0.2
+	dwarven_nationalism = {
+		culture_conversion_cost = -0.25
+		same_culture_advisor_cost = -0.5
 	}
 }
